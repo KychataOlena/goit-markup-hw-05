@@ -37,7 +37,7 @@
 }
    
 .container{
-   width: 1230px;
+   width: 1200px;
    margin-left: auto;
    margin-right: auto;
    padding-left: 15px;
@@ -295,9 +295,13 @@ height: 70px;
 
 }
 
-.feauters-list .item:not(:last-child){
+.feauters-list .feauters-list-item:not(:last-child){
    margin-right: 30px;
   
+}
+
+.feauters-list-item{
+   width: 270px;
 }
 
 /* Company */
@@ -441,6 +445,7 @@ height: 70px;
 }
 
 .decoration{
+   max-width: 370px;
    border: 1px solid #EEEEEE;
    background: #FFFFFF;
    transition:  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -510,7 +515,8 @@ height: 70px;
    height: 100%;
    background-color:rgba(33, 150, 243, 0.9);
  
-   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
